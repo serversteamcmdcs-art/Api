@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnyModel Chat</string>
+
+    <string name="nav_chat">Чат</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="action_back">Назад</string>
+    <string name="action_retry">Повторить</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_reload">Обновить</string>
+
+    <string name="chat_empty_title">Чем могу помочь?</string>
+    <string name="chat_empty_body">Напишите сообщение, чтобы начать диалог.</string>
+    <string name="chat_no_key_title">Нужен API-ключ</string>
+    <string name="chat_no_key_body">Добавьте ключ в настройках, чтобы начать общение.</string>
+    <string name="chat_open_settings">Открыть настройки</string>
+    <string name="chat_input_hint">Сообщение</string>
+    <string name="chat_send">Отправить</string>
+    <string name="chat_stop">Остановить</string>
+    <string name="chat_clear">Очистить чат</string>
+    <string name="chat_regenerate">Ответить заново</string>
+    <string name="chat_select_model">Выбор модели</string>
+    <string name="chat_model_none">Модель не выбрана</string>
+    <string name="chat_models_loading">Загружаю модели…</string>
+
+    <string name="settings_section_api">API</string>
+    <string name="settings_api_key">API-ключ</string>
+    <string name="settings_api_key_hint">Хранится в зашифрованном виде на устройстве</string>
+    <string name="settings_api_key_saved">Ключ сохранён</string>
+    <string name="settings_api_key_show">Показать ключ</string>
+    <string name="settings_api_key_hide">Скрыть ключ</string>
+    <string name="settings_api_key_clear">Удалить ключ</string>
+    <string name="settings_base_url">Адрес API: %1$s</string>
+
+    <string name="settings_section_model">Модель</string>
+    <string name="settings_default_model">Модель по умолчанию</string>
+    <string name="settings_models_empty">Список моделей пуст. Сохраните ключ и нажмите «Обновить».</string>
+    <string name="settings_models_loading">Загружаю модели…</string>
+
+    <string name="settings_section_generation">Генерация</string>
+    <string name="settings_system_prompt">Системный промт (глобальный)</string>
+    <string name="settings_temperature">Температура: %1$s</string>
+    <string name="settings_max_tokens">Максимум токенов (пусто — по умолчанию)</string>
+
+    <string name="settings_section_appearance">Оформление</string>
+    <string name="settings_theme_system">Системная</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_theme_dark">Тёмная</string>
+    <string name="settings_dynamic_color">Dynamic Color (цвета из обоев)</string>
+
+    <string name="error_unauthorized">Неверный или просроченный API-ключ (401)</string>
+    <string name="error_rate_limit">Слишком много запросов (429). Попробуйте позже</string>
+    <string name="error_timeout">Превышено время ожидания ответа</string>
+    <string name="error_no_network">Нет сети. Проверьте подключение</string>
+    <string name="error_no_key">Сначала сохраните API-ключ</string>
+    <string name="error_no_model">Выберите модель в шапке чата или в настройках</string>
+    <string name="error_unknown">Ошибка запроса: %1$s</string>
+</resources>
